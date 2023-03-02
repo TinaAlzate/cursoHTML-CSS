@@ -1,0 +1,43 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    border:1px solid;
+    background-color: lightskyblue;
+}
+.seccion-1{
+    width: 10rem;
+    background-color: lightpink;
+    border: 1px solid;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.elemento{
+    width: 10rem;
+    height: 8rem;
+    border: 1px solid;
+    background-color: fuchsia;
+}
+.seccion-2{
+    width: 15rem;
+    height: 26.3rem;
+    border: 1px solid;
+    display: flex;
+    flex-grow: 1;
+}
+@media(max-width:640px){
+    .contenedor{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .seccion-1{
+        flex-direction: row;
+        justify-content: space-around;
+        width: auto;
+    }
+    .seccion-2{
+        width: auto;
+    }
+}

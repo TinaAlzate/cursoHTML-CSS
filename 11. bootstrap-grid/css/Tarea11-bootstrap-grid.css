@@ -1,0 +1,15 @@
+.row div{
+    margin:0.3rem;
+}
+.col-sm{
+    background-color: lightpink;
+}
+.col-md{
+    background-color: lightgreen;
+}
+.col-lg{
+    background-color: lightblue;
+}
+.col-xl{
+    background-color: purple;
+}

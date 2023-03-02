@@ -1,0 +1,18 @@
+.galeria{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.img{
+    width: 300px;
+    border: 1px solid grey;
+}
+.img:hover{
+    opacity:0.5;
+    cursor: pointer;
+}

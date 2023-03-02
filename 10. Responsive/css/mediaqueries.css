@@ -1,0 +1,55 @@
+h1{
+    color:red;
+    font-size: 4rem;
+}
+p{
+    color:black;
+    font-size: 2rem;
+}
+
+/* existen cuatro dispositivos que podemos usar en las media queries all es el que se pone por defecto (afecta a todos los dispositivos), screen (cuando estamos pintando una página web en una pantalla)print (cuando estamos accediendo a un dispositivo impreso como una impresora), speech ()*/
+
+/* @media print{
+    h1{
+        color:blue;
+    }
+} */
+
+/* @media screen and (max-width:576px){
+    h1{
+        color:blue;
+    }
+} */
+/* @media all and (max-width:576px) */
+
+/* @media (max-width:576){
+    h1{
+        color:blue;
+    }
+}
+@media(max-width:995px){
+    h1{
+        color:green;
+    }
+} */
+/* hacer que de primero se comporte una página con los estilos que estan predefinidos es pririzar el estilo en movil */
+@media(min-width:576px){
+    h1{
+        color:green;
+    }
+}
+@media(min-width:995px){
+    h1{
+        color:blue;
+    }
+}
+@media(min-height:300px), (min-width:1100px){
+    h1{
+        color:bisque;
+    }
+}
+@media(orientation: landscape) and (min-height: 400px){
+    p {
+        color:brown;
+    }
+}

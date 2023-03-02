@@ -1,0 +1,32 @@
+/* Selectores por etiqueta */
+h1{
+    color:aquamarine;
+}
+/* Comentarios */
+p{
+    color:lightblue;
+    font-size: 12pt;
+}
+/* Selectores por id y clase */
+#encabezado{
+    text-transform: uppercase;
+    color:lightgreen;
+    tab-size: 20pt;
+}
+.item1{
+    color: lightcoral;
+    font-size: 12pt;
+}
+.item2{
+    color: blueviolet;
+    font-size: 12pt;
+}
+/* Selecctores universal * para decir todo */
+*{
+    margin: 20px;
+}
+/* Afectar a diferentes selectores con un mismo estilo */
+/* pueden ser diferentes clases e id */
+.autor, .fecha, .ubicacion{
+    font-style: oblique;
+}

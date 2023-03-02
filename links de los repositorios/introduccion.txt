@@ -1,0 +1,10 @@
+https://github.com/Open-Bootcamp/HTML-CSS
+
+
+LETRA BORDEADA
+
+.special-title{
+color: transparent;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: white;
+}
