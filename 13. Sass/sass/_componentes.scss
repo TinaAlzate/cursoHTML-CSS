@@ -1,0 +1,15 @@
+.btn{
+    border:none;
+    padding: 0.25rem 0.5rem;
+    color: #2b2b2b;
+    background-color: lightseagreen;
+    &:hover{
+        background-color: darkblue;
+        color:lightblue;
+        cursor:pointer;
+    }
+}
+.btn-2{
+    @extend .btn;
+    border-radius: 5px;
+}
