@@ -1,13 +1,22 @@
 // Componentes
-@import "./sass/componentes";
+// Tambien le podemos dar un alias a las carpetas con as y el namespace tambien cambia @use "./sass/componentes" as comp;
+@use "./sass/componentes";
+// cuando se usa use se crea un namespace atraves del cual se puede acceder a las variables por que cambia de nombre
+// $color -> ahora se llama componenetes.$color -> comp.$color
+
 // Mixins
-@import "./sass/mixins";
-// Variables
-$text-color: #2b2b2b;
+// tambien se puede usar el asterisco en cambio del alias pero no es recomendable ya que convierte las variables en globales y se accede a ellas unicamente mediante el dolar @use "./sass/mixins" as *; -> $color
+@use "./sass/mixins";
+// $color -> ahora se llama mixins.$color
+
 // Estilos
-@import "./sass/estilos";
+@use "./sass/estilos";
 
 // Paginas
 // Página principal
 // Página de contacto
 // Página de aviso legal
+
+// Otros
+
+@use "sass/builtin";
